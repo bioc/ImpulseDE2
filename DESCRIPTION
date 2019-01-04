@@ -1,7 +1,7 @@
 Package: ImpulseDE2
 Type: Package
 Title: Differential expression analysis of longitudinal count data sets
-Version: 1.7.0
+Version: 1.7.1
 Date: 2017-04-07
 Authors@R: c( person('David S', 'Fischer', NULL,
         'david.fischer@helmholtz-muenchen.de', c('aut','cre')),
@@ -32,7 +32,7 @@ Encoding: UTF-8
 Imports: Biobase, BiocParallel, ComplexHeatmap, circlize, compiler,
         cowplot, DESeq2, ggplot2, grDevices, knitr, Matrix, methods,
         S4Vectors, stats, SummarizedExperiment, utils
-biocViews: Software, StatisticalMethod, TimeCourse, Sequencing,
+biocViews: ImmunoOncology, Software, StatisticalMethod, TimeCourse, Sequencing,
         DifferentialExpression, GeneExpression, CellBiology,
         CellBasedAssays
 Collate: 'ImpulseDE2_main.R' 'srcImpulseDE2_CostFunctionsFit.R'
